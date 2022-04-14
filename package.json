@@ -1,0 +1,24 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "client-install": "npm install --prefix app",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "server": "nodemon server.js",
+        "app": "npm start --prefix app",
+        "dev": "concurrently \"npm run server\" \"npm run app\"",
+        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix app && npm run build --prefix app"
+    },
+    "dependencies": {
+        "axios": "^0.26.1",
+        "body-parser": "^1.20.0",
+        "concurrently": "^7.1.0",
+        "express": "^4.17.3",
+        "request": "^2.88.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
