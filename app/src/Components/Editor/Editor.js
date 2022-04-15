@@ -5,6 +5,7 @@ import { outputChange, submitting } from "../../store/Actions/codeActions";
 import { connect } from "react-redux";
 import axios from "axios";
 import classes from "./editor.module.css";
+import Question from "../Question/Question";
 import "codemirror/lib/codemirror.css";
 import "codemirror/theme/material.css";
 import "codemirror/theme/dracula.css";
@@ -86,6 +87,9 @@ int main() {
                             Python
                         </div>
                     </div>
+                </div>
+                <div className={classes.question}>
+                    <Question />
                 </div>
                 {/* <div className={classes.down}>GO DOWN!!!</div> */}
                 <CodeMirror

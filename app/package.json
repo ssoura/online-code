@@ -2,6 +2,12 @@
     "name": "online-ide",
     "version": "0.1.0",
     "private": true,
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
     "dependencies": {
         "@reduxjs/toolkit": "1.8.1",
         "@uiw/react-codemirror": "^4.6.0",
@@ -11,12 +17,6 @@
         "react-dom": "18.0.0",
         "react-redux": "7.2.8",
         "react-scripts": "^5.0.1"
-    },
-    "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
     },
     "eslintConfig": {
         "extends": "react-app"
