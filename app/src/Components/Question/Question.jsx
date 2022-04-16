@@ -3,7 +3,11 @@ import classes from './Question.module.css'
 
 function Question() {
   return (
-    <div>Question</div>
+    <div className={classes.label}>
+
+      <div>Question</div>
+
+    </div>
   )
 }
 

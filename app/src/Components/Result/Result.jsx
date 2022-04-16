@@ -10,13 +10,9 @@ const Result = () => {
     };
     return (
         <>
-            <div className={classes.show}></div>
             <div className={classes.item}>
                 <div className={classes.label}>
                     INPUT
-                    <p style={{ fontSize: "1rem", margin: 0, color: "#888fb5" }}>
-                        Go ahead test your code here!
-                    </p>
                 </div>
                 <textarea
                     className={classes.input}
@@ -29,9 +25,6 @@ const Result = () => {
             <div className={classes.item}>
                 <div className={classes.label}>
                     OUTPUT
-                    <p style={{ fontSize: "1rem", margin: 0, color: "#888fb5" }}>
-                        Output of your code
-                    </p>
                 </div>
                 <textarea
                     style={{ resize: "both" }}

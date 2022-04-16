@@ -1,0 +1,12 @@
+.label {
+    font-family: "Montserrat", sans-serif;
+    color: #aeb7e4;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    height: 1.5rem;
+    font-size: 1rem;
+    padding: 1rem 0 0 1rem;
+    font-weight: 300;
+    background-color: #494d61;
+    width: 100%;
+}
